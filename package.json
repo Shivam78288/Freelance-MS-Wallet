@@ -1,0 +1,28 @@
+{
+  "name": "multi-sig-wallet",
+  "version": "1.0.0",
+  "description": "Multi-Sig Wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivam78288/Multi-Sig-Wallet.git"
+  },
+  "author": "Shivam Agrawal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shivam78288/Multi-Sig-Wallet/issues"
+  },
+  "homepage": "https://github.com/Shivam78288/Multi-Sig-Wallet#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.20"
+  }
+}
